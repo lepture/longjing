@@ -1,0 +1,16 @@
+{
+  "name": "longjing",
+  "version": "0.0.0-alpha",
+  "description": "longjing for logging",
+  "dependencies": {
+    "arale": "*",
+    "colorful": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": ">=0.2.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
