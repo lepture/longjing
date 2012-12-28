@@ -1,11 +1,11 @@
 {
   "eqeqeq": true,
-  "forin": true,
+  "forin": false,
   "latedef": false,
   "newcap": true,
-  "quotmark": true,
-  "undef": true,
-  "unused": true,
+  "quotmark": false,
+  "undef": false,
+  "unused": false,
   "trailing": true,
   "asi": true,
   "boss": true,
@@ -16,9 +16,8 @@
   "multistr": true,
   "proto": false,
   "smarttabs": true,
-  "shadow": true,
+  "shadow": false,
   "sub": true,
-  "node": true,
   "passfail": false,
   "white": false
 }
