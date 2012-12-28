@@ -3,11 +3,13 @@
   "version": "0.0.0-alpha",
   "description": "longjing for logging",
   "dependencies": {
-    "arale": "*",
-    "colorful": "*"
+    "mkdirp": "~0.3.4",
+    "arale": "~0.2.0",
+    "colorful": "~1.1.1"
   },
   "devDependencies": {
-    "mocha": "*",
+    "jshint": "~0.9.1",
+    "mocha": "~1.7.4",
     "expect.js": ">=0.2.0"
   },
   "scripts": {
