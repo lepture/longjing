@@ -20,3 +20,5 @@ function getLogger(name) {
   return logger;
 }
 exports.getLogger = getLogger;
+
+exports = module.exports = getLogger('root');
