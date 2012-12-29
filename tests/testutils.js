@@ -1,4 +1,4 @@
-var color = require('colorful').color;
+var color = require('colorful');
 color.isatty = true;
 module.exports = function(file) {
   if (process.env.COVERAGE) {
