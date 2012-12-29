@@ -39,3 +39,21 @@ describe('JSONFormatter', function() {
     );
   });
 });
+
+describe('ColorFormatter', function() {
+  var record = {
+    name: 'root',
+    level: 'INFO',
+    filepath: '/tmp/a.js',
+    filename: 'a.js',
+    funcName: 'hello',
+    lineno: 12,
+    message: 'hello formatter',
+    time: new Date().toISOString()
+  };
+  it('should be colorful message', function() {
+    var fm = new formatter.ColorFormatter();
+    var ret = fm.format(record);
+    expect(ret).to.contain('[39m');
+  });
+});
