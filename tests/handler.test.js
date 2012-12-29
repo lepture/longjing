@@ -1,3 +1,4 @@
+var path = require('path');
 var expect = require('expect.js');
 var require = require('./testutils');
 
@@ -34,6 +35,15 @@ describe('FileHandler', function() {
   it('can handle error log', function(done) {
     var handler = new FileHandler();
     handler.handleError('hello', function(err) {
+      if (err) throw err;
+      done();
+    });
+  });
+
+  it('can set log path', function(done) {
+    var handler = new FileHandler();
+    handler.accessLog = path.join(__dirname, 'hello.log');
+    handler.handle('hello', function(err) {
       if (err) throw err;
       done();
     });
