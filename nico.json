@@ -1,0 +1,13 @@
+{
+  "source": "docs",
+  "output": "_site",
+  "theme": "_theme",
+  "permalink": "{{directory}}/{{filename}}",
+  "sitename": "Longjing",
+  "github": "https://github.com/lepture/longjing",
+  "google": "UA-21475122-5",
+  "writers": [
+    "nico.PageWriter",
+    "nico.StaticWriter"
+  ]
+}
