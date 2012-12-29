@@ -6,6 +6,8 @@ However, this one is the killer logging system for node.
 
 ------------
 
+[![Build Status](https://travis-ci.org/lepture/longjing.png)](https://travis-ci.org/lepture/longjing)
+
 It's still on the early development, this is just a design.
 
 
